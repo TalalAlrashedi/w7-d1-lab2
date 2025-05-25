@@ -1,9 +1,15 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color 0.5s ease;
-
+  height: 100vh;
+  width: 100%;
 }
 
 .btns {
@@ -18,9 +24,11 @@
 }
 
 .btns button {
-  background-color: aliceblue;
-  padding: 1rem;
+  width: 50%;
+  color: white;
+  padding: 2rem;
   border: none;
   cursor: pointer;
   font-size: 1rem;
+  border-radius: 50px;
 }

@@ -19,29 +19,29 @@ function App() {
           width: "100%",
         }}
       >
-        <div className="btns">
+        <div  className="btns">
 
           <h2>قائمة الالوان</h2>
           <button
-            style={{ color: "#FE5D26" }}
+            style={{ backgroundColor: "#FE5D26" }}
             onClick={() => chnageColor("#FE5D26")}
           >
             أحمر
           </button>
           <button
-            style={{ color: "#4E71FF" }}
+            style={{ backgroundColor: "#4E71FF" }}
             onClick={() => chnageColor("#4E71FF")}
           >
             أزرق
           </button>
           <button
-            style={{ color: "#73946B" }}
+            style={{ background: "#73946B" }}
             onClick={() => chnageColor("#73946B")}
           >
             أخضر
           </button>
           <button
-            style={{ color: "#F2C078" }}
+            style={{ backgroundColor: "#F2C078" }}
             onClick={() => chnageColor("#F2C078")}
           >
             أصفر
